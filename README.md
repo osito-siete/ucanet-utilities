@@ -25,7 +25,7 @@ Each line in this file is expected to have the following structure:
 [ucanet domain name] [ucanet owner id] [internet IP address/or behavior identfying name]
 
 **Update Rules**:
-- If the third field (`<address>`) is a valid IP address (e.g. `192.168.1.1`) or the word `proto`, it remains unchanged.
+- If the third field (`<address>`) is a valid IP address (e.g. `192.168.1.1`) or the word `protoweb`, it remains unchanged.
 - If the third field is anything else (e.g. `downloadfilesfree33`), it will have `.neocities.org` appended to it (e.g. `downloadfilesfree33.neocities.org`).
 
 **Files Written**:
