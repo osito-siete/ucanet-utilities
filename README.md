@@ -21,7 +21,8 @@ Reads the file:
 ../ucanet-registry/ucanet-registry.txt
 
 Each line in this file is expected to have the following structure:
-<ucanet domain name> <ucanet owner id> <internet IP address/or behavior identfying name>
+
+[ucanet domain name] [ucanet owner id] [internet IP address/or behavior identfying name]
 
 **Update Rules**:
 - If the third field (`<address>`) is a valid IP address (e.g. `192.168.1.1`) or the word `proto`, it remains unchanged.
