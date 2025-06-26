@@ -46,7 +46,7 @@ def update_registry():
 
             domain, id_num, address = parts
 
-            if not IPV4_REGEX.match(address) and address.lower() != "proto":
+            if not IPV4_REGEX.match(address) and address.lower() != "protoweb":
                 address += ".neocities.org"
 
             updated_lines.append(f"{domain} {id_num} {address}\n")
